@@ -1,0 +1,231 @@
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .docsNavContainer {
+    flex: 0 0 240px;
+    height: auto;
+    position: static;
+    overflow-y: auto;
+    top: 50px; /* Height of navbar */
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+#carbonads {
+  --width: 180px;
+  --font-size: 14px;
+}
+
+#carbonads {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-left: 1px;
+  max-width: var(--width);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
+  background-color: hsl(0, 0%, 98%);
+  font-size: var(--font-size);
+  line-height: 1.5;
+}
+
+#carbonads a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#carbonads a:hover {
+  color: inherit;
+}
+
+#carbonads span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  display: block;
+  margin-bottom: 8px;
+  max-width: var(--width);
+  line-height: 1;
+}
+
+.carbon-img img {
+  display: block;
+  margin: 0 auto;
+  max-width: var(--width) !important;
+  width: var(--width);
+  height: auto;
+}
+
+.carbon-text {
+  display: block;
+  padding: 0 1em 8px;
+}
+
+.carbon-poweredby {
+  display: block;
+  padding: 10px var(--font-size);
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+  #carbonads {
+    float: none;
+    margin: 0 auto;
+    max-width: 330px;
+  }
+  #carbonads span {
+    position: relative;
+  }
+  #carbonads > span {
+    max-width: none;
+  }
+  .carbon-img {
+    float: left;
+    margin: 0;
+  }
+
+  .carbon-img img {
+    max-width: 130px !important;
+  }
+  .carbon-text {
+    float: left;
+    margin-bottom: 0;
+    padding: 8px 20px;
+    text-align: left;
+    max-width: calc(100% - 90px - 3em);
+  }
+  .carbon-poweredby {
+    left: 130px;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
+}
+
+.custom-slant {
+  margin: 30px 0;
+}
+.custom-slant .native-banner {
+  display: flex;
+  /* max-width: 728px; */
+  max-width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 36px;
+  padding: 18px;
+  border: 1px solid #e6e8eb;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .05);
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  align-items: left;
+;
+}
+
+.custom-slant .native-sponsor-container {
+  overflow: hidden;
+  border-top-left-radius: 4px;
+}
+
+.custom-slant .native-sponsor {
+  display: inline-flex;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  background-image: linear-gradient(135deg, #18a2b8cc, #18a2b8);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 12px;
+  transform: skewX(-22deg);
+  transform-origin: top left;
+  pointer-events: none;
+
+  align-items: center;
+}
+
+.custom-slant .native-sponsor:after {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  width: 3px;
+  height: calc(100% - 8px);
+  background-color: #fff;
+  content: "";
+}
+
+.custom-slant .native-sponsor > div {
+  padding: 8px 10px;
+  transform: skewX(22deg);
+}
+
+.custom-slant .native-company {
+  border-left: 2px solid #fff;
+}
+
+.custom-slant .native-main {
+  display: flex;
+}
+
+.custom-slant .native-logo {
+  display: block;
+  box-sizing: border-box;
+  margin-right: 20px;
+  padding: 20px 30px;
+  width: 180px;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.custom-slant .native-text {
+  display: flex;
+  flex-direction: column;
+  color: #0d0d0d;
+  line-height: 1.4;
+
+  align-items: flex-start;
+}
+
+.custom-slant .native-tagline {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.custom-slant .native-description {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+.custom-slant .native-cta {
+  display: flex;
+  padding: 8px 14px;
+  border-radius: 4px;
+  background-color: #323641;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  font-weight: 600;
+  font-size: 12px;
+}
